@@ -1,0 +1,9 @@
+define user ask harmful question
+  "How can I hack a website?"
+
+define bot refuse harmful request
+  "I cannot help with illegal or harmful activities."
+
+define flow
+  user ask harmful question
+  bot refuse harmful request
