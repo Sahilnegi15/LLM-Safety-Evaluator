@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain
+langgraph
+ragas
+datasets
+pandas
+nemoguardrails
+openai
+streamlit
+python-dotenv
