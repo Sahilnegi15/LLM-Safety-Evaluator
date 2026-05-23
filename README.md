@@ -1,4 +1,21 @@
-pip install fastapi uvicorn langchain langgraph
-pip install ragas datasets pandas
-pip install nemoguardrails openai
-pip install streamlit python-dotenv
+# LLM Safety Evaluator
+
+## Features
+- Hallucination detection
+- Toxicity evaluation
+- Prompt injection testing
+- RAG evaluation
+- NeMo Guardrails integration
+
+## Tech Stack
+- Python
+- LangGraph
+- RAGAS
+- NeMo Guardrails
+- FastAPI
+- Streamlit
+
+## Run Project
+
+```bash
+uvicorn app.main:app --reload
